@@ -2,6 +2,8 @@
 import requests
 import json
 import os
+import readline
+
 # Set up the Claude API key and endpoint
 os.environ.get("MULTI_AI_CLAUDE_API_KEY")
 claude_api_key = os.environ.get("MULTI_AI_CLAUDE_API_KEY") 
