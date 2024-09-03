@@ -36,7 +36,7 @@ Run the script:
 python multi_ai_chat.py
 ```
 
-- Choose a model by entering its corresponding number.
+- Choose a model by entering its corresponding index.
 - Type your messages and press Enter to send.
 - Special commands:
   - `exit` or `quit`: End the chat session
@@ -50,14 +50,6 @@ python multi_ai_chat.py
 - Gemini 1.5 Flash
 
 Note: Available models depend on your API credentials.
-
-## License
-
-[Specify your license here]
-
-## Contributing
-
-[Add contribution guidelines if applicable]
 
 ## Acknowledgments
 
