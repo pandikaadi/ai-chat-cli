@@ -51,14 +51,6 @@ python multi_ai_chat.py
 
 Note: Available models depend on your API credentials.
 
-## License
-
-[Specify your license here]
-
-## Contributing
-
-[Add contribution guidelines if applicable]
-
 ## Acknowledgments
 
 - Anthropic for Claude API
