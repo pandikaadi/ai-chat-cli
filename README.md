@@ -1,5 +1,3 @@
-
-```markdown
 # Multi-AI Chat Interface
 
 This Python script provides a command-line interface for chatting with multiple AI models, including Claude and Gemini. It allows users to interact with different language models, switch between them, and manage conversations.
@@ -20,7 +18,7 @@ This Python script provides a command-line interface for chatting with multiple 
 
 1. Clone this repository or download the script.
 2. Install the required library:
-   ```
+   ```sh
    pip install requests
    ```
 3. Set up the following environment variables:
@@ -32,7 +30,7 @@ This Python script provides a command-line interface for chatting with multiple 
 
 Run the script:
 
-```
+```sh
 python multi_ai_chat.py
 ```
 
