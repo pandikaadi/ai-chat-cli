@@ -61,5 +61,3 @@ Note: Available models depend on your API credentials.
 
 - Anthropic for Claude API
 - Google for Gemini API
-
-```
