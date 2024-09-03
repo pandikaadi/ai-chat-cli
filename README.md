@@ -18,10 +18,12 @@ This Python script provides a command-line interface for chatting with multiple 
 
 1. Clone this repository or download the script.
 2. Install the required library:
+   
    ```sh
    pip install requests
    ```
-3. Set up the following environment variables:
+   
+4. Set up the following environment variables:
    - `MULTI_AI_CLAUDE_API_KEY`: Your Claude API key
    - `MULTI_AI_CLAUDE_EP`: Claude API endpoint
    - `MULTI_AI_GEMINI_CREDS`: Gemini API endpoint
