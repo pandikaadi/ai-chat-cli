@@ -1,0 +1,7 @@
+CREATE TABLE topics ( 
+    id BIGSERIAL PRIMARY KEY, 
+    title VARCHAR(255) NOT NULL, 
+    model_id SERIAL, 
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, 
+    FOREIGN KEY (model_id) REFERENCES models(id) ON DELETE CASCADE
+);
