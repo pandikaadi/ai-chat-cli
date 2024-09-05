@@ -55,7 +55,7 @@ type GeminiPart struct {
 	Text string `json:"text"`
 }
 
-func chatWithLLM() {
+func main() {
 	for {
 		convo := []string{}
 		connStr := "user=postgres dbname=mul_llm password=postgres host=localhost port=5432 sslmode=disable"
@@ -532,8 +532,4 @@ func sendGeminiRequest(convo []string, data map[string]interface{}, headers map[
 	}
 
 	return strings.TrimSpace(result["candidates"].([]interface{})[0].(map[string]interface{})["content"].(map[string]interface{})["parts"].([]interface{})[0].(map[string]interface{})["text"].(string)), nil
-}
-
-func main() {
-	chatWithLLM()
 }
